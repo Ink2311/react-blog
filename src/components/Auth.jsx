@@ -9,7 +9,6 @@ import { useNavigate } from "react-router-dom";
 const Auth = ({setUser}) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isLogin, setIsLogin] = useState(true);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
